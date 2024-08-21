@@ -12,19 +12,25 @@ Development and maintenance of high quality software systems are absolutely a ne
 
 Identify and describe at least three key milestones in the evolution of software engineering.
 
-Answer: The first milestone I can identify is the development of programming languages, as these are the framework upon which software can be engineered.
+Answer: The first milestone I can identify is the development of programming languages, as these serve as the framework upon which software can be engineered.
         Then recognition of software engineering as a discipline, this tells me that at this point it had to have it's own field, meaning the growth of software engineering truly peaked here.
         And lastly the advent of structured programming, and I believe that this is when a sort of generalized algorithm towards how software engineering should go was developed.
 
 List and briefly explain the phases of the Software Development Life Cycle.
 
-Answer: The phases of the SDLC are as follows;
+Answer: The phases of the SDLC are as follows
+
         phase 1:  Requirements; in this phase, the subject matter of the software to be developed is thoroughly looked into. The needs of the intended users, the system requirements as well.
+        
         phase 2:  Design; in this phase, the software solution that must be realized to meet the needs of the intended users is designed. Detailed design of the software architechture and 
                   user interface is done in this phase.
+                  
         phase 3:  Implementation; this is the phase where the actual coding/programming of the software, whose requirements and designs were carried out in the prior two stages, is done.
+        
         phase 4:  Testing; the phase where the implemented software goes through series of tests to verify it meets the needs of the user and is bug free, i.e the software is up to standard.
+        
         phase 5:  Deployment; as the name implies, this is the phase where the software is released for interaction with the end users.
+        
         phase 6:  Maintenance; the last phase, where upon feedback or further testing, changes are made to the software to improve the quality and ensure the final product is always up to standard.
 
 
@@ -53,19 +59,34 @@ Examples: Vscode, Notepad++
 Version Control Systems(VCS) are also important in the software development process. these are systems that enable developers and whoever else may have access to them to track their code and changes made to 
 it. They also allow multiple collaborators work on a project at a time, without necessarily overwriting each other's changes. This makes the workflow for software developers easier and faster, and they can 
 even serve as a backup as well, in the case there is need to roll back to a previous version of a project.
-
+Examples include Git and Subversion.
 
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
 
+Answer: some common challenges faced include;
+Tight deadlines: Having to wotk with tight deadline can put strain on anyone, and software engineers are no exception. 
+A proper strategy I can recommend is effective time management, and reasonable deadlines should be implemented.
+Changing requirements: When the specifics of a project abruptly changes it can and most probably will throw the software engineers off track.
+A strategy I recommend is using the Agile methodology, that way one would not be caught unaware and will be e=better equipped to respond to changes in the requirements for a project.
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
 
+Answer: Unit testing refers to testing individual components of a software. 
+        Integration testing tests how these components intereact.
+        System testing tests the entire software system as a whole.
+        Acceptance testing tests the software against user requirements to ensure it meets the user's needs.
+        These tests are essential for quality assurance as they reveal any hidden fault or bug if it exists and these faults can then be remedied, improving the quality of the solution/project.
 
 #Part 2: Introduction to AI and Prompt Engineering
 
 
 Define prompt engineering and discuss its importance in interacting with AI models.
-
+Answer: Prompt engineering refers to the process of refining, fine tuning or improving the prompt input given to an AI model or robot in order to improve the quality of the output gotten from it.
+        Prompt engineering is vey important in interacting with AI models because a properly engineered prompt not only saves time but bring more accurate and fine tuned results.
 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+Answer: A good example would be a prompt to translate from english to japanese. the vague prompt could be "translate ____ for me"
+        while you might have communicated that you need a translation from the AI model, it is still vague bacause you havent specified what language you require translation to.
+        the improved prompt will be "translate ____ to japanese"
+        This will be more effective because now the AI model knows exactly what to do, as you've effectively communicated with your input.
